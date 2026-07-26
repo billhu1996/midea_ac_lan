@@ -72,6 +72,9 @@
       "bathing_working": {
         "name": "Bathing Working Status"
       },
+      "bf_error_code": {
+        "name": "Ошибка"
+      },
       "bottom_compartment_cooling": {
         "name": "Bottom Compartment Cooling"
       },
@@ -84,6 +87,12 @@
       "burning_state": {
         "name": "Burning State"
       },
+      "clean_scale": {
+        "name": "Очистка от накипи"
+      },
+      "clean_sink_ponding": {
+        "name": "Скопление воды в раковине"
+      },
       "cleaning_reminder": {
         "name": "Требуется очистка"
       },
@@ -92,6 +101,12 @@
       },
       "cooking": {
         "name": "Приготовление"
+      },
+      "dissipate_heat": {
+        "name": "Отвод тепла"
+      },
+      "door": {
+        "name": "Дверца"
       },
       "error_code": {
         "name": "Код ошибки"
@@ -111,6 +126,9 @@
       "flex_zone_door_overtime": {
         "name": "Flex Zone Door"
       },
+      "flip_side": {
+        "name": "Перевернуть"
+      },
       "freezer_door": {
         "name": "Freezer Door"
       },
@@ -125,6 +143,15 @@
       },
       "heating_working": {
         "name": "Heating Working Status"
+      },
+      "high_temperature": {
+        "name": "Высокая температура"
+      },
+      "high_temperature_lock": {
+        "name": "Блокировка высокой температуры"
+      },
+      "high_temperature_work": {
+        "name": "Работа при высокой температуре"
       },
       "keep_warm": {
         "name": "Поддержание температуры"
@@ -147,8 +174,23 @@
       "oilcup_full": {
         "name": "Oil-cup Full"
       },
+      "ota": {
+        "name": "OTA"
+      },
+      "pre_heat": {
+        "name": "Предварительный нагрев"
+      },
+      "probe": {
+        "name": "Щуп"
+      },
+      "probe_mode": {
+        "name": "Режим щупа"
+      },
       "protection": {
         "name": "Защита"
+      },
+      "reaction": {
+        "name": "Реакция"
       },
       "refrigerator_door": {
         "name": "Refrigerator Door"
@@ -299,6 +341,25 @@
       "bathing_leaving_temperature": {
         "name": "Bathing Leaving Water Temperature"
       },
+      "bf_status": {
+        "name": "Статус",
+        "state": {
+          "save_power": "Энергосбережение",
+          "standby": "Ожидание",
+          "work": "Работает",
+          "work_finish": "Завершено",
+          "order": "Задержка",
+          "pause": "Пауза",
+          "pause_c": "Пауза C",
+          "three": "Три",
+          "wait_to_start": "Ожидание запуска",
+          "self_inspection": "Самодиагностика",
+          "query_version": "Запрос версии",
+          "demo": "Демо",
+          "after_checking": "После проверки",
+          "unknown": "Неизвестно"
+        }
+      },
       "bottom_compartment_remaining": {
         "name": "Bottom Compartment Remaining"
       },
@@ -314,11 +375,26 @@
       "bright": {
         "name": "Bright Level"
       },
+      "cbs_version": {
+        "name": "Версия CBS"
+      },
+      "cloudmenuid": {
+        "name": "ID облачного меню"
+      },
       "compressor_temperature": {
         "name": "Compressor Temperature"
       },
       "condenser_temperature": {
         "name": "Condenser Temperature"
+      },
+      "cur_probe_temperature": {
+        "name": "Текущая температура щупа"
+      },
+      "cur_temperature_above": {
+        "name": "Текущая верхняя температура"
+      },
+      "cur_temperature_underside": {
+        "name": "Текущая нижняя температура"
       },
       "current_energy_consumption": {
         "name": "Current Energy Consumption"
@@ -335,8 +411,47 @@
       "dehydration_time_value": {
         "name": "Dehydration time value"
       },
+      "execute": {
+        "name": "Выполнение"
+      },
+      "fire_power": {
+        "name": "Мощность нагрева"
+      },
+      "minute_set": {
+        "name": "Установка минуты"
+      },
+      "people_number": {
+        "name": "Количество человек"
+      },
+      "probe_temperature": {
+        "name": "Температура щупа"
+      },
+      "screen_luminance": {
+        "name": "Яркость экрана"
+      },
+      "second_set": {
+        "name": "Установка секунды"
+      },
+      "steam_quantity": {
+        "name": "Количество пара"
+      },
+      "stepnum": {
+        "name": "Текущий шаг"
+      },
       "temperature": {
         "name": "Температура"
+      },
+      "temperature_above": {
+        "name": "Верхняя температура"
+      },
+      "temperature_underside": {
+        "name": "Нижняя температура"
+      },
+      "totalstep": {
+        "name": "Всего шагов"
+      },
+      "volume": {
+        "name": "Громкость"
       },
       "wash_time_value": {
         "name": "Wash time value"
@@ -595,6 +710,12 @@
       "water_level": {
         "name": "Уровень воды"
       },
+      "weight": {
+        "name": "Вес"
+      },
+      "work_mode": {
+        "name": "Рабочий режим"
+      },
       "working_time": {
         "name": "Время работы"
       }
@@ -642,8 +763,14 @@
       "frost_protect": {
         "name": "Защита от замерзания"
       },
+      "furnace_light": {
+        "name": "Свет духовки"
+      },
       "heating_power": {
         "name": "Нагреватель"
+      },
+      "hot_wind": {
+        "name": "Горячий воздух"
       },
       "indirect_wind": {
         "name": "Indirect Wind"
@@ -683,6 +810,9 @@
       },
       "regeneration": {
         "name": "Регенерация"
+      },
+      "turntable": {
+        "name": "Вращающийся поднос"
       },
       "water_pump": {
         "name": "Водяной насос"

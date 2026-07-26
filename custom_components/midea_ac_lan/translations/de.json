@@ -72,6 +72,9 @@
       "bathing_working": {
         "name": "Bathing Working Status"
       },
+      "bf_error_code": {
+        "name": "Fehler"
+      },
       "bottom_compartment_cooling": {
         "name": "Bottom Compartment Cooling"
       },
@@ -84,6 +87,12 @@
       "burning_state": {
         "name": "Burning State"
       },
+      "clean_scale": {
+        "name": "Entkalken"
+      },
+      "clean_sink_ponding": {
+        "name": "Wasseransammlung im Spülbecken"
+      },
       "cleaning_reminder": {
         "name": "Cleaning Reminder"
       },
@@ -92,6 +101,12 @@
       },
       "cooking": {
         "name": "Cooking"
+      },
+      "dissipate_heat": {
+        "name": "Wärme abführen"
+      },
+      "door": {
+        "name": "Tür"
       },
       "error_code": {
         "name": "Fehlercode"
@@ -111,6 +126,9 @@
       "flex_zone_door_overtime": {
         "name": "Flex Zone Door"
       },
+      "flip_side": {
+        "name": "Wenden"
+      },
       "freezer_door": {
         "name": "Freezer Door"
       },
@@ -125,6 +143,15 @@
       },
       "heating_working": {
         "name": "Heating Working Status"
+      },
+      "high_temperature": {
+        "name": "Hohe Temperatur"
+      },
+      "high_temperature_lock": {
+        "name": "Hochtemperatursperre"
+      },
+      "high_temperature_work": {
+        "name": "Hochtemperaturbetrieb"
       },
       "keep_warm": {
         "name": "Keep Warm"
@@ -147,8 +174,23 @@
       "oilcup_full": {
         "name": "Oil-cup Full"
       },
+      "ota": {
+        "name": "OTA"
+      },
+      "pre_heat": {
+        "name": "Vorheizen"
+      },
+      "probe": {
+        "name": "Fühler"
+      },
+      "probe_mode": {
+        "name": "Fühlermodus"
+      },
       "protection": {
         "name": "Protection"
+      },
+      "reaction": {
+        "name": "Reaktion"
       },
       "refrigerator_door": {
         "name": "Refrigerator Door"
@@ -299,6 +341,25 @@
       "bathing_leaving_temperature": {
         "name": "Bathing Leaving Water Temperature"
       },
+      "bf_status": {
+        "name": "Status",
+        "state": {
+          "save_power": "Stromsparen",
+          "standby": "Bereitschaft",
+          "work": "Arbeiten",
+          "work_finish": "Beendet",
+          "order": "Verzögerung",
+          "pause": "Pausiert",
+          "pause_c": "Pausiert C",
+          "three": "Drei",
+          "wait_to_start": "Warten auf Start",
+          "self_inspection": "Selbsttest",
+          "query_version": "Version abfragen",
+          "demo": "Demo",
+          "after_checking": "Nach Prüfung",
+          "unknown": "Unbekannt"
+        }
+      },
       "bottom_compartment_remaining": {
         "name": "Bottom Compartment Remaining"
       },
@@ -314,11 +375,26 @@
       "bright": {
         "name": "Bright Level"
       },
+      "cbs_version": {
+        "name": "CBS-Version"
+      },
+      "cloudmenuid": {
+        "name": "Cloud-Menü-ID"
+      },
       "compressor_temperature": {
         "name": "Compressor Temperature"
       },
       "condenser_temperature": {
         "name": "Condenser Temperature"
+      },
+      "cur_probe_temperature": {
+        "name": "Aktuelle Fühlertemperatur"
+      },
+      "cur_temperature_above": {
+        "name": "Aktuelle obere Temperatur"
+      },
+      "cur_temperature_underside": {
+        "name": "Aktuelle untere Temperatur"
       },
       "current_energy_consumption": {
         "name": "Current Energy Consumption"
@@ -355,6 +431,9 @@
       "error_code": {
         "name": "Error Code"
       },
+      "execute": {
+        "name": "Ausführen"
+      },
       "fan_level": {
         "name": "Fan level"
       },
@@ -378,6 +457,9 @@
       },
       "filter3_life": {
         "name": "Filter3 Lebensdauer Level"
+      },
+      "fire_power": {
+        "name": "Heizleistung"
       },
       "flex_zone_actual_temp": {
         "name": "Flex Zone Actual Temperature"
@@ -430,6 +512,9 @@
       "middle_compartment_temperature": {
         "name": "Middle Compartment Temperature"
       },
+      "minute_set": {
+        "name": "Minute einstellen"
+      },
       "mode": {
         "name": "Mode"
       },
@@ -438,6 +523,12 @@
       },
       "outdoor_temperature": {
         "name": "Outdoor Temperature"
+      },
+      "people_number": {
+        "name": "Personenanzahl"
+      },
+      "probe_temperature": {
+        "name": "Fühlertemperatur"
       },
       "program": {
         "name": "Program"
@@ -478,8 +569,14 @@
       "salt_setting": {
         "name": "Salzeinstellung"
       },
+      "screen_luminance": {
+        "name": "Bildschirmhelligkeit"
+      },
       "seat_temperature": {
         "name": "Seat Temperature"
+      },
+      "second_set": {
+        "name": "Sekunde einstellen"
       },
       "soak_time": {
         "name": "soak time"
@@ -496,6 +593,12 @@
       "status": {
         "name": "Status"
       },
+      "steam_quantity": {
+        "name": "Dampfmenge"
+      },
+      "stepnum": {
+        "name": "Aktueller Schritt"
+      },
       "storage_remaining": {
         "name": "Storage Remaining"
       },
@@ -510,6 +613,12 @@
       },
       "temperature": {
         "name": "Temperatur"
+      },
+      "temperature_above": {
+        "name": "Obere Temperatur"
+      },
+      "temperature_underside": {
+        "name": "Untere Temperatur"
       },
       "time_remaining": {
         "name": "Time Remaining"
@@ -532,6 +641,9 @@
       "total_produced_energy": {
         "name": "Total produced energy"
       },
+      "totalstep": {
+        "name": "Gesamtschritte"
+      },
       "tvoc": {
         "name": "TVOC"
       },
@@ -540,6 +652,9 @@
       },
       "velocity": {
         "name": "Durchflussgeschwindigkeit"
+      },
+      "volume": {
+        "name": "Lautstärke"
       },
       "wash_level": {
         "name": "rinse count"
@@ -564,6 +679,12 @@
       },
       "water_level": {
         "name": "Water Level"
+      },
+      "weight": {
+        "name": "Gewicht"
+      },
+      "work_mode": {
+        "name": "Arbeitsmodus"
       },
       "working_time": {
         "name": "Working Time"
@@ -612,8 +733,14 @@
       "frost_protect": {
         "name": "Frost Protect"
       },
+      "furnace_light": {
+        "name": "Ofenlicht"
+      },
       "heating_power": {
         "name": "Heating Power"
+      },
+      "hot_wind": {
+        "name": "Heißluft"
       },
       "indirect_wind": {
         "name": "Indirect Wind"
@@ -653,6 +780,9 @@
       },
       "regeneration": {
         "name": "Regeneration"
+      },
+      "turntable": {
+        "name": "Drehteller"
       },
       "water_pump": {
         "name": "Wasserpumpe"

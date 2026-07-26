@@ -72,6 +72,9 @@
       "bathing_working": {
         "name": "Estado de funcionamiento del baño"
       },
+      "bf_error_code": {
+        "name": "Error"
+      },
       "bottom_compartment_cooling": {
         "name": "Enfriamiento del compartimento inferior"
       },
@@ -84,6 +87,12 @@
       "burning_state": {
         "name": "Estado de combustión"
       },
+      "clean_scale": {
+        "name": "Desincrustar"
+      },
+      "clean_sink_ponding": {
+        "name": "Acumulación de agua en el fregadero"
+      },
       "cleaning_reminder": {
         "name": "Recordatorio de limpieza"
       },
@@ -92,6 +101,12 @@
       },
       "cooking": {
         "name": "Cocinando"
+      },
+      "dissipate_heat": {
+        "name": "Disipar calor"
+      },
+      "door": {
+        "name": "Puerta"
       },
       "error_code": {
         "name": "Código de error"
@@ -111,6 +126,9 @@
       "flex_zone_door_overtime": {
         "name": "Puerta de zona flexible abierta demasiado tiempo"
       },
+      "flip_side": {
+        "name": "Voltear"
+      },
       "freezer_door": {
         "name": "Puerta del congelador"
       },
@@ -125,6 +143,15 @@
       },
       "heating_working": {
         "name": "Estado de funcionamiento de calefacción"
+      },
+      "high_temperature": {
+        "name": "Alta temperatura"
+      },
+      "high_temperature_lock": {
+        "name": "Bloqueo de alta temperatura"
+      },
+      "high_temperature_work": {
+        "name": "Trabajo de alta temperatura"
       },
       "keep_warm": {
         "name": "Mantener caliente"
@@ -147,8 +174,23 @@
       "oilcup_full": {
         "name": "Depósito de aceite lleno"
       },
+      "ota": {
+        "name": "OTA"
+      },
+      "pre_heat": {
+        "name": "Precalentar"
+      },
+      "probe": {
+        "name": "Sonda"
+      },
+      "probe_mode": {
+        "name": "Modo sonda"
+      },
       "protection": {
         "name": "Protección"
+      },
+      "reaction": {
+        "name": "Reacción"
       },
       "refrigerator_door": {
         "name": "Puerta del frigorífico"
@@ -337,6 +379,25 @@
       "bathing_leaving_temperature": {
         "name": "Temperatura de salida del agua de baño"
       },
+      "bf_status": {
+        "name": "Estado",
+        "state": {
+          "save_power": "Ahorro de energía",
+          "standby": "En espera",
+          "work": "Trabajando",
+          "work_finish": "Terminado",
+          "order": "Retraso",
+          "pause": "Pausado",
+          "pause_c": "Pausado C",
+          "three": "Tres",
+          "wait_to_start": "Esperando inicio",
+          "self_inspection": "Autoinspección",
+          "query_version": "Consultar versión",
+          "demo": "Demo",
+          "after_checking": "Después de revisión",
+          "unknown": "Desconocido"
+        }
+      },
       "bottom_compartment_remaining": {
         "name": "Tiempo restante compartimento inferior"
       },
@@ -352,11 +413,26 @@
       "bright": {
         "name": "Nivel de brillo"
       },
+      "cbs_version": {
+        "name": "Versión CBS"
+      },
+      "cloudmenuid": {
+        "name": "ID de menú en la nube"
+      },
       "compressor_temperature": {
         "name": "Temperatura del compresor"
       },
       "condenser_temperature": {
         "name": "Temperatura del condensador"
+      },
+      "cur_probe_temperature": {
+        "name": "Temperatura actual de la sonda"
+      },
+      "cur_temperature_above": {
+        "name": "Temperatura superior actual"
+      },
+      "cur_temperature_underside": {
+        "name": "Temperatura inferior actual"
       },
       "current_energy_consumption": {
         "name": "Consumo de energía actual"
@@ -373,8 +449,47 @@
       "dehydration_time_value": {
         "name": "Valor del tiempo de centrifugado"
       },
+      "execute": {
+        "name": "Ejecutar"
+      },
+      "fire_power": {
+        "name": "Potencia de fuego"
+      },
+      "minute_set": {
+        "name": "Ajustar minuto"
+      },
+      "people_number": {
+        "name": "Número de personas"
+      },
+      "probe_temperature": {
+        "name": "Temperatura de la sonda"
+      },
+      "screen_luminance": {
+        "name": "Luminosidad de pantalla"
+      },
+      "second_set": {
+        "name": "Ajustar segundo"
+      },
+      "steam_quantity": {
+        "name": "Cantidad de vapor"
+      },
+      "stepnum": {
+        "name": "Paso actual"
+      },
       "temperature": {
         "name": "Temperatura"
+      },
+      "temperature_above": {
+        "name": "Temperatura superior"
+      },
+      "temperature_underside": {
+        "name": "Temperatura inferior"
+      },
+      "totalstep": {
+        "name": "Pasos totales"
+      },
+      "volume": {
+        "name": "Volumen"
       },
       "wash_time_value": {
         "name": "Valor del tiempo de lavado"
@@ -630,6 +745,12 @@
       "water_level": {
         "name": "Nivel de agua"
       },
+      "weight": {
+        "name": "Peso"
+      },
+      "work_mode": {
+        "name": "Modo de trabajo"
+      },
       "working_time": {
         "name": "Tiempo de funcionamiento"
       },
@@ -692,8 +813,14 @@
       "frost_protect": {
         "name": "Protección contra heladas"
       },
+      "furnace_light": {
+        "name": "Luz del horno"
+      },
       "heating_power": {
         "name": "Potencia de calefacción"
+      },
+      "hot_wind": {
+        "name": "Aire caliente"
       },
       "indirect_wind": {
         "name": "Viento indirecto"
@@ -733,6 +860,9 @@
       },
       "regeneration": {
         "name": "Regeneración"
+      },
+      "turntable": {
+        "name": "Plato giratorio"
       },
       "water_pump": {
         "name": "Bomba de agua"

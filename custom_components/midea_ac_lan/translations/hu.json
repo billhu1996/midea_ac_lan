@@ -72,6 +72,9 @@
       "bathing_working": {
         "name": "Bathing Working Status"
       },
+      "bf_error_code": {
+        "name": "Hiba"
+      },
       "bottom_compartment_cooling": {
         "name": "Bottom Compartment Cooling"
       },
@@ -84,6 +87,12 @@
       "burning_state": {
         "name": "Burning State"
       },
+      "clean_scale": {
+        "name": "Vízkőmentesítés"
+      },
+      "clean_sink_ponding": {
+        "name": "Vízgyűjtő medence"
+      },
       "cleaning_reminder": {
         "name": "Cleaning Reminder"
       },
@@ -92,6 +101,12 @@
       },
       "cooking": {
         "name": "Cooking"
+      },
+      "dissipate_heat": {
+        "name": "Hőelvezetés"
+      },
+      "door": {
+        "name": "Ajtó"
       },
       "error_code": {
         "name": "Hibakód"
@@ -111,6 +126,9 @@
       "flex_zone_door_overtime": {
         "name": "Flex Zone Door"
       },
+      "flip_side": {
+        "name": "Megfordítás"
+      },
       "freezer_door": {
         "name": "Freezer Door"
       },
@@ -125,6 +143,15 @@
       },
       "heating_working": {
         "name": "Heating Working Status"
+      },
+      "high_temperature": {
+        "name": "Magas hőmérséklet"
+      },
+      "high_temperature_lock": {
+        "name": "Magas hőmérséklet zárolás"
+      },
+      "high_temperature_work": {
+        "name": "Magas hőmérséklet üzemmód"
       },
       "keep_warm": {
         "name": "Keep Warm"
@@ -147,8 +174,23 @@
       "oilcup_full": {
         "name": "Oil-cup Full"
       },
+      "ota": {
+        "name": "OTA"
+      },
+      "pre_heat": {
+        "name": "Előmelegítés"
+      },
+      "probe": {
+        "name": "Mérőpálca"
+      },
+      "probe_mode": {
+        "name": "Mérőpálca mód"
+      },
       "protection": {
         "name": "Protection"
+      },
+      "reaction": {
+        "name": "Reakció"
       },
       "refrigerator_door": {
         "name": "Refrigerator Door"
@@ -299,6 +341,25 @@
       "bathing_leaving_temperature": {
         "name": "Bathing Leaving Water Temperature"
       },
+      "bf_status": {
+        "name": "Állapot",
+        "state": {
+          "save_power": "Energiatakarékos",
+          "standby": "Készenlét",
+          "work": "Működik",
+          "work_finish": "Befejezett",
+          "order": "Késleltetés",
+          "pause": "Szünet",
+          "pause_c": "Szünet C",
+          "three": "Három",
+          "wait_to_start": "Várakozás indításra",
+          "self_inspection": "Önellenőrzés",
+          "query_version": "Verzió lekérdezés",
+          "demo": "Demó",
+          "after_checking": "Ellenőrzés után",
+          "unknown": "Ismeretlen"
+        }
+      },
       "bottom_compartment_remaining": {
         "name": "Bottom Compartment Remaining"
       },
@@ -314,11 +375,26 @@
       "bright": {
         "name": "Bright Level"
       },
+      "cbs_version": {
+        "name": "CBS verzió"
+      },
+      "cloudmenuid": {
+        "name": "Felhő menü ID"
+      },
       "compressor_temperature": {
         "name": "Compressor Temperature"
       },
       "condenser_temperature": {
         "name": "Condenser Temperature"
+      },
+      "cur_probe_temperature": {
+        "name": "Jelenlegi mérőpálca hőmérséklet"
+      },
+      "cur_temperature_above": {
+        "name": "Jelenlegi felső hőmérséklet"
+      },
+      "cur_temperature_underside": {
+        "name": "Jelenlegi alsó hőmérséklet"
       },
       "current_energy_consumption": {
         "name": "Current Energy Consumption"
@@ -355,6 +431,9 @@
       "error_code": {
         "name": "Error Code"
       },
+      "execute": {
+        "name": "Végrehajtás"
+      },
       "fan_level": {
         "name": "Fan level"
       },
@@ -378,6 +457,9 @@
       },
       "filter3_life": {
         "name": "Filter3 Life Level"
+      },
+      "fire_power": {
+        "name": "Tűzereje"
       },
       "flex_zone_actual_temp": {
         "name": "Flex Zone Actual Temperature"
@@ -430,6 +512,9 @@
       "middle_compartment_temperature": {
         "name": "Middle Compartment Temperature"
       },
+      "minute_set": {
+        "name": "Perc beállítása"
+      },
       "mode": {
         "name": "Mode"
       },
@@ -438,6 +523,12 @@
       },
       "outdoor_temperature": {
         "name": "Outdoor Temperature"
+      },
+      "people_number": {
+        "name": "Személyek száma"
+      },
+      "probe_temperature": {
+        "name": "Mérőpálca hőmérséklet"
       },
       "program": {
         "name": "Program"
@@ -478,8 +569,14 @@
       "salt_setting": {
         "name": "Só beállítása"
       },
+      "screen_luminance": {
+        "name": "Képernyő fényereje"
+      },
       "seat_temperature": {
         "name": "Seat Temperature"
+      },
+      "second_set": {
+        "name": "Másodperc beállítása"
       },
       "soak_time": {
         "name": "soak time"
@@ -496,6 +593,12 @@
       "status": {
         "name": "Status"
       },
+      "steam_quantity": {
+        "name": "Gőz mennyisége"
+      },
+      "stepnum": {
+        "name": "Jelenlegi lépés"
+      },
       "storage_remaining": {
         "name": "Storage Remaining"
       },
@@ -510,6 +613,12 @@
       },
       "temperature": {
         "name": "Hőmérséklet"
+      },
+      "temperature_above": {
+        "name": "Felső hőmérséklet"
+      },
+      "temperature_underside": {
+        "name": "Alsó hőmérséklet"
       },
       "time_remaining": {
         "name": "Time Remaining"
@@ -532,6 +641,9 @@
       "total_produced_energy": {
         "name": "Total produced energy"
       },
+      "totalstep": {
+        "name": "Összes lépés"
+      },
       "tvoc": {
         "name": "TVOC"
       },
@@ -540,6 +652,9 @@
       },
       "velocity": {
         "name": "Sebesség"
+      },
+      "volume": {
+        "name": "Hangerő"
       },
       "wash_level": {
         "name": "rinse count"
@@ -564,6 +679,12 @@
       },
       "water_level": {
         "name": "Water Level"
+      },
+      "weight": {
+        "name": "Súly"
+      },
+      "work_mode": {
+        "name": "Munkamód"
       },
       "working_time": {
         "name": "Working Time"
@@ -612,8 +733,14 @@
       "frost_protect": {
         "name": "Frost Protect"
       },
+      "furnace_light": {
+        "name": "Kemence fény"
+      },
       "heating_power": {
         "name": "Heating Power"
+      },
+      "hot_wind": {
+        "name": "Forró levegő"
       },
       "indirect_wind": {
         "name": "Indirect Wind"
@@ -653,6 +780,9 @@
       },
       "regeneration": {
         "name": "Regenerálás"
+      },
+      "turntable": {
+        "name": "Forgótálca"
       },
       "water_pump": {
         "name": "Vízszivattyú"
